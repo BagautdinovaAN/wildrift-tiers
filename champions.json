@@ -1,0 +1,867 @@
+[
+  {
+    "name": "Viktor",
+    "role": "Mid",
+    "tier": "S+"
+  },
+  {
+    "name": "Amumu",
+    "role": "Jungle",
+    "tier": "S+"
+  },
+  {
+    "name": "Wukong",
+    "role": "Baron",
+    "tier": "S+"
+  },
+  {
+    "name": "Corki",
+    "role": "Duo",
+    "tier": "S+"
+  },
+  {
+    "name": "Sivir",
+    "role": "Duo",
+    "tier": "S+"
+  },
+  {
+    "name": "Varus",
+    "role": "Duo",
+    "tier": "S+"
+  },
+  {
+    "name": "Blitzcrank",
+    "role": "Support",
+    "tier": "S+"
+  },
+  {
+    "name": "Milio",
+    "role": "Support",
+    "tier": "S+"
+  },
+  {
+    "name": "Vi",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Braum",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Riven",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Zoe",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Morgana",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Jarvan IV",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Ornn",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Nautilus",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Lulu",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Janna",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Miss Fortune",
+    "role": "Duo",
+    "tier": "S"
+  },
+  {
+    "name": "Hecarim",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Lillia",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Rammus",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Wukong",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Ambessa",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Ahri",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Shyvana",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Warwick",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Nilah",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Orianna",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Maokai",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Pyke",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Olaf",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Heimerdinger",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Dr. Mundo",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Singed",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Shen",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Soraka",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Nami",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Singed",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Malphite",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Camille",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Renekton",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Gwen",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Aatrox",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Ekko",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Swain",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Thresh",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Seraphine",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Lux",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Sona",
+    "role": "Support",
+    "tier": "S"
+  },
+  {
+    "name": "Jax",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Warwick",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Mordekaiser",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Jhin",
+    "role": "Duo",
+    "tier": "S"
+  },
+  {
+    "name": "Ezreal",
+    "role": "Duo",
+    "tier": "S"
+  },
+  {
+    "name": "Xayah",
+    "role": "Duo",
+    "tier": "S"
+  },
+  {
+    "name": "Rumble",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Gnar",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Ornn",
+    "role": "Baron",
+    "tier": "S"
+  },
+  {
+    "name": "Lee Sin",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Nunu & Willump",
+    "role": "Jungle",
+    "tier": "S"
+  },
+  {
+    "name": "Syndra",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Corki",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Veigar",
+    "role": "Mid",
+    "tier": "S"
+  },
+  {
+    "name": "Teemo",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Ashe",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Yuumi",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Twisted Fate",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Sion",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Zyra",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Fizz",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Kennen",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Rakan",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Kindred",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Yone",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Master Yi",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Viego",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Karma",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Zyra",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Vex",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Zed",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Akshan",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Yasuo",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Volibear",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Kayle",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Kennen",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Yone",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Annie",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Jayce",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Kayle",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Kayle",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Pantheon",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Morgana",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Urgot",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Garen",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Aatrox",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Gragas",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Talon",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Akali",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Ziggs",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Aurelion Sol",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Tristana",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Zeri",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Akali",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Rengar",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Brand",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Jayce",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Sett",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Diana",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Kha'Zix",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Jinx",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Leona",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Galio",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Maokai",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Fizz",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Lissandra",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Galio",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Caitlyn",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Kai'Sa",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Graves",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Kayn",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Xin Zhao",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Kassadin",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Ekko",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Lux",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Yone",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Yasuo",
+    "role": "Mid",
+    "tier": "A"
+  },
+  {
+    "name": "Lucian",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Vayne",
+    "role": "Duo",
+    "tier": "A"
+  },
+  {
+    "name": "Poppy",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Fiora",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Nasus",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Darius",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Riven",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Olaf",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Tryndamere",
+    "role": "Baron",
+    "tier": "A"
+  },
+  {
+    "name": "Zed",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Tryndamere",
+    "role": "Jungle",
+    "tier": "A"
+  },
+  {
+    "name": "Alistar",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Senna",
+    "role": "Support",
+    "tier": "A"
+  },
+  {
+    "name": "Fiora",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Pantheon",
+    "role": "Baron",
+    "tier": "B"
+  },
+  {
+    "name": "Seraphine",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Karma",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Swain",
+    "role": "Support",
+    "tier": "B"
+  },
+  {
+    "name": "Jayce",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Irelia",
+    "role": "Baron",
+    "tier": "B"
+  },
+  {
+    "name": "Irelia",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Pyke",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Gwen",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Brand",
+    "role": "Support",
+    "tier": "B"
+  },
+  {
+    "name": "Talon",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Twitch",
+    "role": "Duo",
+    "tier": "B"
+  },
+  {
+    "name": "Lucian",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Vladimir",
+    "role": "Baron",
+    "tier": "B"
+  },
+  {
+    "name": "Ambessa",
+    "role": "Baron",
+    "tier": "B"
+  },
+  {
+    "name": "Evelynn",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Darius",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Draven",
+    "role": "Duo",
+    "tier": "B"
+  },
+  {
+    "name": "Fiddlesticks",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Vladimir",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Gragas",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Diana",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Katarina",
+    "role": "Mid",
+    "tier": "B"
+  },
+  {
+    "name": "Samira",
+    "role": "Duo",
+    "tier": "B"
+  },
+  {
+    "name": "Volibear",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Maokai",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Nautilus",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Gnar",
+    "role": "Jungle",
+    "tier": "B"
+  },
+  {
+    "name": "Poppy",
+    "role": "Support",
+    "tier": "B"
+  },
+  {
+    "name": "Morgana",
+    "role": "Support",
+    "tier": "B"
+  },
+  {
+    "name": "Kalista",
+    "role": "Duo",
+    "tier": "C"
+  },
+  {
+    "name": "Nilah",
+    "role": "Duo",
+    "tier": "C"
+  }
+]

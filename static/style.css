@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("/static/wildrift-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    color: #ffdd00;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  .patch {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .autocomplete-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .team {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .team-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* тень для выразительности */
+    padding: 0.25rem 0.5rem;
+  }
+  
+  /* Цвета без подчёркивания */
+  .team-title.blue {
+    color: #00bfff;
+  }
+  
+  .team-title.red {
+    color: #ff6347;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.2rem;
+    width: 445px;
+  }  
+  
+  .champ-input {
+    width: 125px; 
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.95rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #000;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    flex-shrink: 0;
+  }
+  
+  .champ-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .tier-output {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.4rem;
+    align-items: center;
+    flex: 1;
+  }
+  
+
+  .tier-badge {
+    padding: 0.35rem 0.6rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    white-space: nowrap;
+  }
+  
+  .tier-splus {
+    background-color: #ffd700;
+  }
+  
+  .tier-s {
+    background-color: #ff9900;
+  }
+  
+  .tier-a {
+    background-color: #32cd32;
+  }
+  
+  .tier-b {
+    background-color: #1e90ff;
+  }
+  
+  .tier-c {
+    background-color: #999;
+  }
+  
+  .tier-not-found {
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  
+  .clear-button {
+    margin-top: 2rem;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wild Rift Tiers</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="content">
+    <h1>🌟 Wild Rift Tier List 🌟</h1>
+    <p class="patch"><strong>Patch:</strong> {{ patch }}</p>
+
+    <!-- Команды: игрока и противника -->
+    <div class="autocomplete-container">
+      <!-- Моя команда -->
+      <div class="team">
+        <h2 class="team-title blue">MY TEAM</h2>
+        {% for i in range(5) %}
+        <div class="input-group">
+          <input type="text" class="champ-input" placeholder="Champion {{ i+1 }}" list="champions">
+          <div class="tier-output"></div>
+        </div>
+        {% endfor %}
+        <!-- Кнопка очистки своей команды -->
+        <button class="clear-button" onclick="clearTeam(0, 5)">Clear</button>
+      </div>
+
+      <!-- Команда противника -->
+      <div class="team">
+        <h2 class="team-title red">ENEMY TEAM</h2>
+        {% for i in range(5) %}
+        <div class="input-group">
+          <input type="text" class="champ-input" placeholder="Champion {{ i+1 }}" list="champions">
+          <div class="tier-output"></div>
+        </div>
+        {% endfor %}
+        <!-- Кнопка очистки команды врага -->
+        <button class="clear-button" onclick="clearTeam(5, 10)">Clear</button>
+      </div>
+    </div>
+
+    <!-- datalist — выпадающий список чемпионов -->
+    <datalist id="champions">
+      {% for champ in champions %}
+        <option value="{{ champ.name }}">
+      {% endfor %}
+    </datalist>
+  </div>
+
+  <!-- JSON с данными чемпионов, передан из Flask -->
+  <script id="champions-data" type="application/json">
+    {{ champions_json | safe }}
+  </script>
+
+  <!-- Скрипт для обновления тир-информации -->
+  <script>
+    // Получаем данные чемпионов из тега <script type="application/json">
+    const championsData = JSON.parse(
+      document.getElementById('champions-data').textContent
+    );
+
+    // Цветовые классы для тиров
+    const tierClassMap = {
+      'S+': 'tier-splus',
+      'S': 'tier-s',
+      'A': 'tier-a',
+      'B': 'tier-b',
+      'C': 'tier-c',
+      'Not found': 'tier-not-found'
+    };
+
+    // Подключаем обработку ко всем инпутам
+    document.querySelectorAll('.champ-input').forEach((input, index) => {
+      const output = input.parentElement.querySelector('.tier-output');
+
+      const updateTier = () => {
+        const value = input.value.trim().toLowerCase();
+        output.innerHTML = '';
+
+        if (!value) return;
+
+        const matches = championsData.filter(c => c.name.toLowerCase() === value);
+
+        if (matches.length > 0) {
+          // Несколько ролей = несколько плашек
+          matches.forEach(match => {
+            const badge = document.createElement('span');
+            badge.className = `tier-badge ${tierClassMap[match.tier] || ''}`;
+            badge.textContent = `${match.role} — ${match.tier}`;
+            output.appendChild(badge);
+          });
+        } else {
+          const badge = document.createElement('span');
+          badge.className = 'tier-badge tier-not-found';
+          badge.textContent = 'Not found';
+          output.appendChild(badge);
+        }
+      };
+
+      // События на ввод и выбор
+      input.addEventListener('input', updateTier);
+      input.addEventListener('change', () => {
+        const value = input.value.trim().toLowerCase();
+        const match = championsData.find(c => c.name.toLowerCase() === value);
+        if (match) input.value = match.name;
+        updateTier();
+      });
+    });
+
+    // Очистка группы инпутов
+    function clearTeam(startIndex, endIndex) {
+      const inputs = document.querySelectorAll('.champ-input');
+      for (let i = startIndex; i < endIndex; i++) {
+        inputs[i].value = '';
+        inputs[i].dispatchEvent(new Event('input')); // обновляем тир
+      }
+    }
+  </script>
+</body>
+</html>
