@@ -63,8 +63,5 @@ http://127.0.0.1:5000
 
 ## ✍️ Author
 
-Created by [Your Name]. Inspired by modern game UIs and love for Wild Rift.
+Created by BagautdinovaAN. Inspired by modern game UIs and love for Wild Rift.
 
-## 📜 License
-
-MIT License (add if needed)
